@@ -3,3 +3,4 @@
 target/scala-2.11/
 target/streams/
 
+.ensime
