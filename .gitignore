@@ -1,5 +1,5 @@
 .ensime_cache/
 .ipynb_checkpoints/
-
-
+target/scala-2.11/
+target/streams/
 
