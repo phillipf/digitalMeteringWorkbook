@@ -1,0 +1,4048 @@
+
+  <iframe id="frame-foo" sandbox="allow-scripts allow-same-origin" style="border: none; width: 100%" srcdoc="&lt;html&gt;
+  &lt;head&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://vega.github.io/vega-editor/vendor/vega-embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+ &lt;div id='foo'&gt;&lt;/div&gt;
+ &lt;script&gt;
+   var embedSpec = {
+     mode: &quot;vega-lite&quot;,
+     spec: {
+  &quot;mark&quot; : &quot;bar&quot;,
+  &quot;encoding&quot; : {
+    &quot;x&quot; : {
+      &quot;field&quot; : &quot;time&quot;,
+      &quot;type&quot; : &quot;temporal&quot;
+    },
+    &quot;y&quot; : {
+      &quot;field&quot; : &quot;flow&quot;,
+      &quot;type&quot; : &quot;quantitative&quot;
+    }
+  },
+  &quot;description&quot; : &quot;Country Pop&quot;,
+  &quot;data&quot; : {
+    &quot;values&quot; : [
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 730
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 990
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 550
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 01/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 750
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1010
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 560
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 490
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 200
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 02/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 770
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1000
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 560
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 03/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 750
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1010
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 590
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 250
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 150
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 04/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 770
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1000
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 540
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 660
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 200
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 150
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 240
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Friday 05/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 380
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 240
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 200
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 280
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 280
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 260
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 300
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 300
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 280
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 290
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 340
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 350
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 310
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 330
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 330
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 290
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 290
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Saturday 06/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 350
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 200
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Sunday 07/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 750
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1010
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 570
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 220
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 300
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 420
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 370
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 220
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 220
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 300
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 360
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 360
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 440
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 150
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 270
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 150
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Monday 08/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 770
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1020
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 580
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 420
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 800
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 610
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 460
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 1220
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 320
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 230
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 220
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Tuesday 09/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 800
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1030
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 580
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 120
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:00:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:15:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:30:00 AM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:45:00 AM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:00:00 AM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:15:00 AM&quot;,
+        &quot;flow&quot; : 170
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:30:00 AM&quot;,
+        &quot;flow&quot; : 240
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:45:00 AM&quot;,
+        &quot;flow&quot; : 90
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:00:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:30:00 PM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 12:45:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:00:00 PM&quot;,
+        &quot;flow&quot; : 200
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:15:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:30:00 PM&quot;,
+        &quot;flow&quot; : 430
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 01:45:00 PM&quot;,
+        &quot;flow&quot; : 110
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:00:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:15:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:30:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 02:45:00 PM&quot;,
+        &quot;flow&quot; : 210
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:00:00 PM&quot;,
+        &quot;flow&quot; : 150
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:15:00 PM&quot;,
+        &quot;flow&quot; : 160
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:30:00 PM&quot;,
+        &quot;flow&quot; : 180
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 03:45:00 PM&quot;,
+        &quot;flow&quot; : 220
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:00:00 PM&quot;,
+        &quot;flow&quot; : 80
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:15:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:30:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 04:45:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:00:00 PM&quot;,
+        &quot;flow&quot; : 70
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:15:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 05:45:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:00:00 PM&quot;,
+        &quot;flow&quot; : 60
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:15:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 06:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:15:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:30:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 07:45:00 PM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:15:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:30:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 08:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:00:00 PM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:15:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:30:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 09:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:15:00 PM&quot;,
+        &quot;flow&quot; : 190
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:30:00 PM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 10:45:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:00:00 PM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:15:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:30:00 PM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Wednesday 10/01/2018 11:45:00 PM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 12:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 12:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 12:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 12:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 01:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 01:15:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 01:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 01:45:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 02:00:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 02:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 02:30:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 02:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 03:00:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 03:15:00 AM&quot;,
+        &quot;flow&quot; : 50
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 03:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 03:45:00 AM&quot;,
+        &quot;flow&quot; : 780
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 04:00:00 AM&quot;,
+        &quot;flow&quot; : 1040
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 04:15:00 AM&quot;,
+        &quot;flow&quot; : 560
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 04:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 04:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 05:00:00 AM&quot;,
+        &quot;flow&quot; : 100
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 05:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 05:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 05:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 06:00:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 06:15:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 06:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 06:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 07:00:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 07:15:00 AM&quot;,
+        &quot;flow&quot; : 10
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 07:30:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 07:45:00 AM&quot;,
+        &quot;flow&quot; : 0
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 08:00:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 08:15:00 AM&quot;,
+        &quot;flow&quot; : 20
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 08:30:00 AM&quot;,
+        &quot;flow&quot; : 30
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 08:45:00 AM&quot;,
+        &quot;flow&quot; : 140
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 09:00:00 AM&quot;,
+        &quot;flow&quot; : 130
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 09:15:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 09:30:00 AM&quot;,
+        &quot;flow&quot; : 40
+      },
+      {
+        &quot;time&quot; : &quot;Thursday 11/01/2018 09:45:00 AM&quot;,
+        &quot;flow&quot; : 60
+      }
+    ]
+  }
+}
+   }
+   vg.embed(&quot;#foo&quot;, embedSpec, function(error, result) {});
+ &lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;"></iframe>
+  <script>
+    (function() {
+      function resizeIFrame(el, k) {
+        var height = el.contentWindow.document.body.scrollHeight || '400'; // Fallback in case of no scroll height
+        el.style.height = height + 'px';
+        if (k <= 10) { setTimeout(function() { resizeIFrame(el, k+1) }, 1000 + (k * 250)) };
+      }
+      resizeIFrame(document.querySelector('#frame-foo'), 1);
+    })(); // IIFE
+  </script>
+    

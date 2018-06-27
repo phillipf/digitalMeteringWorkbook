@@ -1,0 +1,4054 @@
+{
+  "width" : null,
+  "height" : null,
+  "mark" : "bar",
+  "encoding" : {
+    "row" : null,
+    "column" : null,
+    "x" : {
+      "axis" : null,
+      "scale" : null,
+      "sort" : null,
+      "field" : "time",
+      "type" : "temporal",
+      "value" : null,
+      "timeUnit" : null,
+      "bin" : null,
+      "aggregate" : null,
+      "title" : null
+    },
+    "y" : {
+      "axis" : null,
+      "scale" : null,
+      "sort" : null,
+      "field" : "flow",
+      "type" : "quantitative",
+      "value" : null,
+      "timeUnit" : null,
+      "bin" : null,
+      "aggregate" : null,
+      "title" : null
+    },
+    "x2" : null,
+    "y2" : null,
+    "color" : null,
+    "opacity" : null,
+    "size" : null,
+    "shape" : null,
+    "detail" : null,
+    "text" : null,
+    "label" : null,
+    "path" : null,
+    "order" : null
+  },
+  "name" : null,
+  "description" : "Country Pop",
+  "data" : {
+    "format" : null,
+    "url" : null,
+    "values" : [
+      {
+        "time" : "Monday 01/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 01/01/2018 03:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 03:45:00 AM",
+        "flow" : 730
+      },
+      {
+        "time" : "Monday 01/01/2018 04:00:00 AM",
+        "flow" : 990
+      },
+      {
+        "time" : "Monday 01/01/2018 04:15:00 AM",
+        "flow" : 550
+      },
+      {
+        "time" : "Monday 01/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Monday 01/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 01/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 08:15:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Monday 01/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 08:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 12:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 01:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 02:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 03:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 04:00:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Monday 01/01/2018 04:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Monday 01/01/2018 04:30:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Monday 01/01/2018 04:45:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Monday 01/01/2018 05:00:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Monday 01/01/2018 05:15:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Monday 01/01/2018 05:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 01/01/2018 05:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 06:00:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 01/01/2018 06:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 01/01/2018 06:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 01/01/2018 06:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 01/01/2018 07:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 07:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 07:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 07:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 08:00:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 01/01/2018 08:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 01/01/2018 08:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 08:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 09:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 10:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Monday 01/01/2018 10:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 01/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 01/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:45:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:45:00 AM",
+        "flow" : 750
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:00:00 AM",
+        "flow" : 1010
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:15:00 AM",
+        "flow" : 560
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 12:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:30:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Tuesday 02/01/2018 01:45:00 PM",
+        "flow" : 490
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:00:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:15:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:30:00 PM",
+        "flow" : 130
+      },
+      {
+        "time" : "Tuesday 02/01/2018 02:45:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 02/01/2018 03:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 04:45:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 02/01/2018 05:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 06:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 07:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 08:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 09:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:15:00 PM",
+        "flow" : 200
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 02/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 02/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:45:00 AM",
+        "flow" : 770
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:00:00 AM",
+        "flow" : 1000
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:15:00 AM",
+        "flow" : 560
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 12:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 01:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 02:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:00:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:15:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:30:00 PM",
+        "flow" : 130
+      },
+      {
+        "time" : "Wednesday 03/01/2018 03:45:00 PM",
+        "flow" : 130
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:00:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 04:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:15:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 05:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 06:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 07:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 08:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 09:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:15:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 03/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 03/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:45:00 AM",
+        "flow" : 750
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:00:00 AM",
+        "flow" : 1010
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:15:00 AM",
+        "flow" : 590
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:00:00 AM",
+        "flow" : 110
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 12:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 01:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 02:45:00 PM",
+        "flow" : 250
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:00:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:30:00 PM",
+        "flow" : 150
+      },
+      {
+        "time" : "Thursday 04/01/2018 03:45:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:00:00 PM",
+        "flow" : 100
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 04:45:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:00:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Thursday 04/01/2018 05:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:15:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 06:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 04/01/2018 07:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 04/01/2018 08:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 09:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:15:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 04/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 04/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 12:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 12:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 01:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 01:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 01:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 02:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 02:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 02:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 02:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 03:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 03:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 03:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 03:45:00 AM",
+        "flow" : 770
+      },
+      {
+        "time" : "Friday 05/01/2018 04:00:00 AM",
+        "flow" : 1000
+      },
+      {
+        "time" : "Friday 05/01/2018 04:15:00 AM",
+        "flow" : 540
+      },
+      {
+        "time" : "Friday 05/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 05:00:00 AM",
+        "flow" : 110
+      },
+      {
+        "time" : "Friday 05/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 08:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 08:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 09:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 09:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 10:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 10:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 10:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 10:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 12:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 12:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Friday 05/01/2018 12:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 12:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 01:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 01:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 01:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 01:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 02:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 02:15:00 PM",
+        "flow" : 660
+      },
+      {
+        "time" : "Friday 05/01/2018 02:30:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Friday 05/01/2018 02:45:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Friday 05/01/2018 03:00:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Friday 05/01/2018 03:15:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Friday 05/01/2018 03:30:00 PM",
+        "flow" : 200
+      },
+      {
+        "time" : "Friday 05/01/2018 03:45:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Friday 05/01/2018 04:00:00 PM",
+        "flow" : 150
+      },
+      {
+        "time" : "Friday 05/01/2018 04:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Friday 05/01/2018 04:30:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Friday 05/01/2018 04:45:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Friday 05/01/2018 05:00:00 PM",
+        "flow" : 130
+      },
+      {
+        "time" : "Friday 05/01/2018 05:15:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Friday 05/01/2018 05:30:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Friday 05/01/2018 05:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Friday 05/01/2018 06:00:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Friday 05/01/2018 06:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Friday 05/01/2018 06:30:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Friday 05/01/2018 06:45:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Friday 05/01/2018 07:00:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Friday 05/01/2018 07:15:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Friday 05/01/2018 07:30:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Friday 05/01/2018 07:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 08:00:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Friday 05/01/2018 08:15:00 PM",
+        "flow" : 90
+      },
+      {
+        "time" : "Friday 05/01/2018 08:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 08:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Friday 05/01/2018 09:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Friday 05/01/2018 09:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 09:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 09:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Friday 05/01/2018 10:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Friday 05/01/2018 10:15:00 PM",
+        "flow" : 240
+      },
+      {
+        "time" : "Friday 05/01/2018 10:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Friday 05/01/2018 10:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Friday 05/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Friday 05/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:45:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:45:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:15:00 AM",
+        "flow" : 160
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:00:00 AM",
+        "flow" : 90
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:45:00 AM",
+        "flow" : 70
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:00:00 AM",
+        "flow" : 380
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:15:00 AM",
+        "flow" : 210
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:30:00 AM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:45:00 AM",
+        "flow" : 240
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:00:00 AM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:15:00 AM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:30:00 AM",
+        "flow" : 210
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:45:00 AM",
+        "flow" : 90
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:00:00 PM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:15:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:30:00 PM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 12:45:00 PM",
+        "flow" : 230
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:00:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:15:00 PM",
+        "flow" : 200
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:30:00 PM",
+        "flow" : 280
+      },
+      {
+        "time" : "Saturday 06/01/2018 01:45:00 PM",
+        "flow" : 280
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:00:00 PM",
+        "flow" : 260
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:15:00 PM",
+        "flow" : 300
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:30:00 PM",
+        "flow" : 300
+      },
+      {
+        "time" : "Saturday 06/01/2018 02:45:00 PM",
+        "flow" : 280
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:00:00 PM",
+        "flow" : 290
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:15:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:30:00 PM",
+        "flow" : 340
+      },
+      {
+        "time" : "Saturday 06/01/2018 03:45:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:00:00 PM",
+        "flow" : 350
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:15:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:30:00 PM",
+        "flow" : 310
+      },
+      {
+        "time" : "Saturday 06/01/2018 04:45:00 PM",
+        "flow" : 330
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:00:00 PM",
+        "flow" : 330
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:15:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:30:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 05:45:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:00:00 PM",
+        "flow" : 290
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:15:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:30:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Saturday 06/01/2018 06:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:00:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Saturday 06/01/2018 07:45:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:30:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Saturday 06/01/2018 08:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:15:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Saturday 06/01/2018 09:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:00:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:15:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Saturday 06/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:15:00 PM",
+        "flow" : 290
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Saturday 06/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:15:00 AM",
+        "flow" : 350
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:30:00 AM",
+        "flow" : 110
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:15:00 AM",
+        "flow" : 160
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 12:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 01:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 02:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 03:45:00 PM",
+        "flow" : 200
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:00:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:15:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:30:00 PM",
+        "flow" : 90
+      },
+      {
+        "time" : "Sunday 07/01/2018 04:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 05:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Sunday 07/01/2018 06:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 07:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:00:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Sunday 07/01/2018 08:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 09:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Sunday 07/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Sunday 07/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 12:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 12:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 12:45:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 08/01/2018 01:00:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 01:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 01:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 02:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 02:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 02:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 02:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 03:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 03:15:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 08/01/2018 03:30:00 AM",
+        "flow" : 70
+      },
+      {
+        "time" : "Monday 08/01/2018 03:45:00 AM",
+        "flow" : 750
+      },
+      {
+        "time" : "Monday 08/01/2018 04:00:00 AM",
+        "flow" : 1010
+      },
+      {
+        "time" : "Monday 08/01/2018 04:15:00 AM",
+        "flow" : 570
+      },
+      {
+        "time" : "Monday 08/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Monday 08/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 08:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 08:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 08:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 08:45:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Monday 08/01/2018 09:00:00 AM",
+        "flow" : 70
+      },
+      {
+        "time" : "Monday 08/01/2018 09:15:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Monday 08/01/2018 09:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 09:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 10:00:00 AM",
+        "flow" : 80
+      },
+      {
+        "time" : "Monday 08/01/2018 10:15:00 AM",
+        "flow" : 220
+      },
+      {
+        "time" : "Monday 08/01/2018 10:30:00 AM",
+        "flow" : 210
+      },
+      {
+        "time" : "Monday 08/01/2018 10:45:00 AM",
+        "flow" : 300
+      },
+      {
+        "time" : "Monday 08/01/2018 11:00:00 AM",
+        "flow" : 170
+      },
+      {
+        "time" : "Monday 08/01/2018 11:15:00 AM",
+        "flow" : 420
+      },
+      {
+        "time" : "Monday 08/01/2018 11:30:00 AM",
+        "flow" : 370
+      },
+      {
+        "time" : "Monday 08/01/2018 11:45:00 AM",
+        "flow" : 220
+      },
+      {
+        "time" : "Monday 08/01/2018 12:00:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Monday 08/01/2018 12:15:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Monday 08/01/2018 12:30:00 PM",
+        "flow" : 220
+      },
+      {
+        "time" : "Monday 08/01/2018 12:45:00 PM",
+        "flow" : 300
+      },
+      {
+        "time" : "Monday 08/01/2018 01:00:00 PM",
+        "flow" : 360
+      },
+      {
+        "time" : "Monday 08/01/2018 01:15:00 PM",
+        "flow" : 360
+      },
+      {
+        "time" : "Monday 08/01/2018 01:30:00 PM",
+        "flow" : 440
+      },
+      {
+        "time" : "Monday 08/01/2018 01:45:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Monday 08/01/2018 02:00:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Monday 08/01/2018 02:15:00 PM",
+        "flow" : 150
+      },
+      {
+        "time" : "Monday 08/01/2018 02:30:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Monday 08/01/2018 02:45:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Monday 08/01/2018 03:00:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Monday 08/01/2018 03:15:00 PM",
+        "flow" : 270
+      },
+      {
+        "time" : "Monday 08/01/2018 03:30:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Monday 08/01/2018 03:45:00 PM",
+        "flow" : 150
+      },
+      {
+        "time" : "Monday 08/01/2018 04:00:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Monday 08/01/2018 04:15:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Monday 08/01/2018 04:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Monday 08/01/2018 04:45:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Monday 08/01/2018 05:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 05:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 05:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 05:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Monday 08/01/2018 06:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 06:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 06:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 06:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 07:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 07:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 07:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 07:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 08:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 08:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 08:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 08:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 09:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 09:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 09:30:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 09:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 10:15:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Monday 08/01/2018 10:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Monday 08/01/2018 10:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 11:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Monday 08/01/2018 11:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Monday 08/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:15:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:45:00 AM",
+        "flow" : 770
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:00:00 AM",
+        "flow" : 1020
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:15:00 AM",
+        "flow" : 580
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:00:00 AM",
+        "flow" : 420
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:15:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:45:00 AM",
+        "flow" : 80
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:00:00 AM",
+        "flow" : 210
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:45:00 AM",
+        "flow" : 60
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:00:00 AM",
+        "flow" : 800
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:15:00 AM",
+        "flow" : 610
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:30:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:45:00 AM",
+        "flow" : 60
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:00:00 AM",
+        "flow" : 120
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:15:00 AM",
+        "flow" : 460
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:30:00 AM",
+        "flow" : 1220
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:45:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:00:00 PM",
+        "flow" : 140
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:15:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:30:00 PM",
+        "flow" : 100
+      },
+      {
+        "time" : "Tuesday 09/01/2018 12:45:00 PM",
+        "flow" : 120
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:00:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:30:00 PM",
+        "flow" : 320
+      },
+      {
+        "time" : "Tuesday 09/01/2018 01:45:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:00:00 PM",
+        "flow" : 90
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:15:00 PM",
+        "flow" : 90
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:30:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Tuesday 09/01/2018 02:45:00 PM",
+        "flow" : 130
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:00:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:15:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:30:00 PM",
+        "flow" : 170
+      },
+      {
+        "time" : "Tuesday 09/01/2018 03:45:00 PM",
+        "flow" : 230
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:00:00 PM",
+        "flow" : 90
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:30:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Tuesday 09/01/2018 04:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:00:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:15:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Tuesday 09/01/2018 05:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:00:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 06:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 07:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:00:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:15:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 08:45:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Tuesday 09/01/2018 09:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:00:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:15:00 PM",
+        "flow" : 220
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:30:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Tuesday 09/01/2018 10:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:30:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Tuesday 09/01/2018 11:45:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:15:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:45:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:15:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:45:00 AM",
+        "flow" : 800
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:00:00 AM",
+        "flow" : 1030
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:15:00 AM",
+        "flow" : 580
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:30:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:45:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:00:00 AM",
+        "flow" : 120
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:15:00 AM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:30:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:45:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:00:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:15:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:30:00 AM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:45:00 AM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:00:00 AM",
+        "flow" : 80
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:15:00 AM",
+        "flow" : 170
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:30:00 AM",
+        "flow" : 240
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:45:00 AM",
+        "flow" : 90
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:00:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:30:00 PM",
+        "flow" : 100
+      },
+      {
+        "time" : "Wednesday 10/01/2018 12:45:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:00:00 PM",
+        "flow" : 200
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:15:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:30:00 PM",
+        "flow" : 430
+      },
+      {
+        "time" : "Wednesday 10/01/2018 01:45:00 PM",
+        "flow" : 110
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:00:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:15:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:30:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Wednesday 10/01/2018 02:45:00 PM",
+        "flow" : 210
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:00:00 PM",
+        "flow" : 150
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:15:00 PM",
+        "flow" : 160
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:30:00 PM",
+        "flow" : 180
+      },
+      {
+        "time" : "Wednesday 10/01/2018 03:45:00 PM",
+        "flow" : 220
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:00:00 PM",
+        "flow" : 80
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:15:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:30:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 04:45:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:00:00 PM",
+        "flow" : 70
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:15:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 05:45:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:00:00 PM",
+        "flow" : 60
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:15:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 06:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:15:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:30:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 07:45:00 PM",
+        "flow" : 40
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:15:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:30:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 10/01/2018 08:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:00:00 PM",
+        "flow" : 30
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:15:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:30:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 09:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:15:00 PM",
+        "flow" : 190
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:30:00 PM",
+        "flow" : 50
+      },
+      {
+        "time" : "Wednesday 10/01/2018 10:45:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:00:00 PM",
+        "flow" : 20
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:15:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:30:00 PM",
+        "flow" : 10
+      },
+      {
+        "time" : "Wednesday 10/01/2018 11:45:00 PM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 12:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 12:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 11/01/2018 12:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 11/01/2018 12:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 01:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 01:15:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 11/01/2018 01:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 01:45:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 02:00:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 11/01/2018 02:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 02:30:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 02:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 03:00:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 11/01/2018 03:15:00 AM",
+        "flow" : 50
+      },
+      {
+        "time" : "Thursday 11/01/2018 03:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 11/01/2018 03:45:00 AM",
+        "flow" : 780
+      },
+      {
+        "time" : "Thursday 11/01/2018 04:00:00 AM",
+        "flow" : 1040
+      },
+      {
+        "time" : "Thursday 11/01/2018 04:15:00 AM",
+        "flow" : 560
+      },
+      {
+        "time" : "Thursday 11/01/2018 04:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 11/01/2018 04:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 05:00:00 AM",
+        "flow" : 100
+      },
+      {
+        "time" : "Thursday 11/01/2018 05:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 11/01/2018 05:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 05:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 06:00:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 11/01/2018 06:15:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 06:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 06:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 07:00:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 07:15:00 AM",
+        "flow" : 10
+      },
+      {
+        "time" : "Thursday 11/01/2018 07:30:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 07:45:00 AM",
+        "flow" : 0
+      },
+      {
+        "time" : "Thursday 11/01/2018 08:00:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 08:15:00 AM",
+        "flow" : 20
+      },
+      {
+        "time" : "Thursday 11/01/2018 08:30:00 AM",
+        "flow" : 30
+      },
+      {
+        "time" : "Thursday 11/01/2018 08:45:00 AM",
+        "flow" : 140
+      },
+      {
+        "time" : "Thursday 11/01/2018 09:00:00 AM",
+        "flow" : 130
+      },
+      {
+        "time" : "Thursday 11/01/2018 09:15:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 11/01/2018 09:30:00 AM",
+        "flow" : 40
+      },
+      {
+        "time" : "Thursday 11/01/2018 09:45:00 AM",
+        "flow" : 60
+      }
+    ]
+  },
+  "transform" : null,
+  "config" : null
+}
